@@ -1,0 +1,108 @@
+#container_02{
+  font-family:'Times New Roman', Times, serif;
+}
+
+header {
+  height:150px;
+  border: 10px groove red;
+  padding: 30px;
+  margin: 15px;
+  width: 960px;
+  background-size: cover;
+}
+
+footer {
+  border: 10px ridge green;
+  padding: 20px;
+  margin: 10px;
+}
+
+.koala_banner_right {
+  float: right;
+}
+
+.koala_logo_left {
+  float: left;
+}
+
+.koala_banner_left {
+  float: left;
+}
+
+.koala_logo_right {
+  float: right;
+}
+h3.koala_facts {
+  font-weight: 500;
+}
+h3 {
+  font-family: "Lobster", fantasy;
+  font-size: 25px;
+  text-align: left;
+  color: blue;
+  border-top: 10px groove black;
+  padding: 20px;
+  margin: 15px;
+  text-transform: lowercase;
+}
+h4 {
+  font-family: "FascinateInline+Regular", fantasy;
+  font-style: oblique;
+  border-top: 10px ridge black;
+  padding: 20px;
+  margin: 15px;
+  font-weight: lighter;
+}
+
+body {
+  color: #fdd1ff;
+  padding: 20px;
+  margin: 15px;
+  font-weight: bolder;
+}
+ul {
+  color: black;
+  padding: 15px;
+  margin: 10px;
+}
+ul.one {
+  list-style-type: square;
+}
+ul.two {
+  list-style-type: cjk-ideographic;
+}
+ol.one {
+  list-style-type: circle;
+}
+ol.two {
+  list-style-type: inherit;
+  list-style-position: inside;
+}
+div ul{
+  font-family:'Courier New', Courier, monospace;
+}
+
+a:link{
+  color:blue;
+}
+a:visited{
+  color:black;
+}
+a:hover{
+  color:red;
+}
+a:active{
+  color:hotpink;
+}
+
+.xx-large::first-letter{
+  color: purple;
+  font-size: xx-large;
+}
+
+.site-travel {
+  display: inline;
+  background-color: lightseagreen;
+  color: red;
+  text-decoration: none;
+}

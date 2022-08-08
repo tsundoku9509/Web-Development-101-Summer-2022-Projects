@@ -1,0 +1,33 @@
+#gallery{
+    border:0px;
+    padding:0px;
+    margin:0px;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: flex-start;
+    align-items:baseline;
+    column-count: 3;
+    column-gap: 0px;
+    font:inherit;
+    vertical-align:baseline;
+}
+.img_gallery{
+    flex:20;
+    max-width: 75%;
+    padding:1;
+}
+.img_gallery img{
+    margin-top:8px;
+    vertical-align:bottom;
+    width:100%;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+}
+@media only screen and (max-width:600px){
+    body{
+        font-family:'Courier', Courier, monospace;
+        background-color: black;
+    }
+}

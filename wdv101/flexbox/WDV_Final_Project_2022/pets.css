@@ -1,0 +1,259 @@
+body{
+    overflow:scroll;
+}
+nav{
+    font-family:'RampartOne+Regular', fantasy;
+    font-size: large;
+    background-color: white;
+    border: 10px groove grey;
+    padding:5px;
+    margin:2px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:flex-start;
+    box-sizing: border-box;
+    width:100%;
+    position:absolute;
+    top:0;
+    left:-0.12em;
+    right:0; 
+}
+#page_content{
+    column-count: 2;
+    column-gap: 20px;
+}
+.dog_cat{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.founded{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+ul{
+    list-style-type:none;
+    float:left;
+}
+li{
+    display:inline;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    padding-left:50px;
+
+}
+a{
+    display: block;
+}
+a:link{
+    color:blue;
+  }
+  a:visited{
+    color:black;
+  }
+  a:hover{
+    color:red;
+  }
+  a:active{
+    color:hotpink;
+  }
+
+
+.jumbotron h2{
+    font-family:'Times New Roman', Times, serif;
+    font-size:30px;
+    color:white;
+}
+.jumbotron p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+    color:white;
+}
+.jumbotron{
+    color: black;
+    background-color: none !important;
+}
+#columns{
+    column-count: 1;
+    column-gap: 0px;
+    column-width: 100%;
+    float:left;
+}
+form{
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    top:100;
+    bottom:0;
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+}
+
+#james{
+
+        border:0;
+        padding:5px;
+        margin:2px;
+        font-family:'Courier', Courier, monospace;
+        font-size:20px;
+        column-count: 2;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        column-gap: 15px;
+        vertical-align:baseline;
+    }
+.james_image{
+    border:0px;
+    padding:5px;
+    margin:2px;
+    background-size: contain;
+}
+.about_james{
+    height:125px;
+    border:0;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding:5px;
+    margin:2px;
+    background-color: black;
+    color:white;
+    width:fit-content;
+    left:0;
+}
+
+#seth{
+    border:0;
+    padding:5px;
+    margin:2px;
+    font-family:'Courier', Courier, monospace;
+    font-size:20px;
+    column-count: 2;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    column-gap: 15px;
+    vertical-align:baseline;
+}
+.seth_image{
+    border:0px;
+    padding:5px;
+    margin:2px;
+    background-size: contain;
+}
+.about_seth{
+    height:125px;
+    border:0;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding:5px;
+    margin:2px;
+    background-color: black;
+    color:white;
+    width:fit-content;
+    left:0;
+}
+.seth_list{
+    list-style-type: disc;
+}
+#rachel{
+    border:0;
+    padding:5px;
+    margin:2px;
+    font-family:'Courier', Courier, monospace;
+    font-size:20px;
+    column-count: 2;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    column-gap: 15px;
+    vertical-align:baseline;
+}
+.rachel_image{
+    border:0px;
+    padding:5px;
+    margin:2px;
+    background-size: contain;
+}
+.about_rachel{
+    height:125px;
+    border:0;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding:5px;
+    margin:2px;
+    background-color: black;
+    color:white;
+    width:fit-content;
+    left:0;
+}
+.dropdown-menu{
+    display: flex;
+    flex-direction: column;
+}
+.about_us{
+    display: flex;
+    flex-direction: column;
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+}
+.about_us h3{
+    font-family:'Courier', Courier, monospace;
+    font-size:30px;
+    text-decoration: underline; 
+}
+.amigos h3{
+    font-family:'Courier', Courier, monospace;
+    font-size:40px;
+    text-decoration: underline; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.pets_now{
+    display: flex;
+    flex-direction: column;
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+}
+.pets_now h3{
+    font-family:'Courier', Courier, monospace;
+    font-size:30px;
+    text-decoration: underline; 
+}
+#about_us_gallery{
+    border:0px;
+    padding:0px;
+    margin:0px;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: center;
+    column-count: 3;
+    column-gap: 15px;
+    font:inherit;
+    vertical-align:baseline;
+}
+.our_services{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+}
+.programs h3{
+    font-family:'Courier', Courier, monospace;
+    font-size:30px;
+    text-decoration: underline;
+}
+.programs li{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+}

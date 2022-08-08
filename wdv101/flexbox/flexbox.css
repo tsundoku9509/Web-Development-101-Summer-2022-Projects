@@ -1,0 +1,58 @@
+
+.site-travel {
+    display: inline;
+    background-color: black;
+    color: red;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+a:link{
+    color:blue;
+  }
+a:visited{
+    color:white;
+  }
+a:hover{
+    color:red;
+  }
+a:active{
+    color:hotpink;
+  }
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: chartreuse;
+    background-color: black;
+}
+.head {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    background-size: contain;
+    background-position: right;
+    background-color: black;
+    overflow:hidden;
+    border: 0px groove black;
+    margin: 5px;
+    padding: 2px;
+}
+.flex{
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    justify-content:flex-end;
+
+}
+.box{
+    display: flex;
+    flex-flow:column-reverse;
+    justify-content: center;
+    column-count: 3;
+    column-gap: 20px;
+    column-rule-style: ridge;
+    border: 0px groove black;
+    margin: 5px;
+    padding: 2px;
+}

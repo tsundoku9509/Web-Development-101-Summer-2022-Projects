@@ -1,0 +1,18 @@
+#container {
+    position:relative;
+    width: 1300px;
+    height:1300px;
+    border: 0px groove black;
+    padding: 30px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.columns {
+    column-count: 3;
+    column-gap: 20px;
+    column-rule-style:groove;
+    column-rule-width:5px;
+    border: 1px ridge purple;
+    padding: 15px;
+    margin: 5px;
+}

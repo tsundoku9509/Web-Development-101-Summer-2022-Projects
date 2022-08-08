@@ -1,0 +1,67 @@
+h1 {
+    color:royalblue;
+    background-color:black;
+    border: 20px ridge hotpink;
+    padding: 10px;
+    margin: 5px;
+    text-align:center;
+    font-family: 'Lobster', fantasy;
+    font-weight: lighter;
+    overflow:hidden;
+}
+
+h2 {
+    color: lawngreen;
+    background-color: darkorchid;
+    border-top: 20px groove blue;
+    padding: 15px;
+    margin: 15px;
+    font-weight: lighter;
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    overflow: hidden;
+}
+
+
+body {
+    background-image: url("nate-grant-QQ9LainS6tI-unsplash.jpeg");
+    background-size:contain;
+    padding: 20em;
+}
+
+a:link{
+    color:lightblue;
+  }
+  a:visited{
+    color:white;
+  }
+  a:hover{
+    color:red;
+  }
+  a:active{
+    color:hotpink;
+  }
+
+.homework {
+    font-family:'Courier New', Courier, monospace;
+}
+
+ul {
+   list-style-type: none; 
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   color: white;
+}
+
+  li {
+    float: left;
+    color: blue;
+  }
+
+  li a {
+    display: block;
+    padding: 8px;
+    background-color: black;
+  }

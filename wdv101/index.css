@@ -1,0 +1,29 @@
+video {
+    background-size: contain;
+    background-position: right;
+    background-color: black;
+    overflow:hidden;
+}
+
+body {
+    background-color: black;
+}
+h1 {
+    font-family: "Inconsolata", "Consolas", "Courier New", monospace;
+    color: aquamarine;
+    font-size: 40px;
+
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color:red;
+    font-size: 32px;
+}
+
+p {
+    font-family: "FascinateInline+Regular", fantasy;
+    color: white;
+    font-size: 24px;
+}
+
